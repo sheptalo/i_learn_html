@@ -3,5 +3,9 @@
 }
 #upper{
     text-align: center;
+    color: white;
     font-size: xx-large;
+    width: auto;
+    border-radius: 10px;
+    background: black;
 }
