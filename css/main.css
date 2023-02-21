@@ -8,5 +8,8 @@ margin: 0;
   font-size: xx-large;
   background: white;
   color: black;
+  font-variant: small-caps;
+  font-family: Arial, Helvetica, sans-serif;
 text-align: center;
+text-decoration: blink;
 }
