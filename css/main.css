@@ -1,6 +1,13 @@
 *{
-background: yellow;
+background: slategray;
+margin: 0;
 }
-h1{
+#welcome{
+  margin-left: 150px;
+  width: max-content;
+  border-radius: 30px;
+  height: 25px;
+  background: black;
+  color: blue;
 text-align: center;
 }
