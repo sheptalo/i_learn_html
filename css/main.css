@@ -1,17 +1,15 @@
 * {
-  background: rgb(77, 74, 74);
+  background: rgb(94, 94, 94);
   margin: 0px;
   padding: 0px;
 }
 a,
-big {
+#welcome big {
   cursor: pointer;
+  background-color: inherit;
 }
 h1 {
   border-radius: inherit;
-}
-big {
-  background-color: inherit;
 }
 #welcome {
   border-radius: 0px 0px 20px 0px;
@@ -23,7 +21,6 @@ big {
   text-align: left;
   letter-spacing: 2px;
 }
-
 /*buttons default*/
 button {
   cursor: pointer;
@@ -72,9 +69,24 @@ button:hover::before {
   left: 0%;
   top: 0%;
 }
-.games:not(:first-child) {
+.games {
   margin-left: 127px;
 }
+
+.prog {
+  margin-left: 235px;
+}
+.prog::before {
+  left: 0%;
+  top: 0%;
+  height: 0%;
+  width: 0%;
+}
+.prog:hover::before {
+  height: 100%;
+  width: 100%;
+}
+
 #catalog {
   position: absolute;
   left: 12.5%;
@@ -115,4 +127,52 @@ button:hover::before {
   border-radius: 14px;
   width: 250px;
   height: 200px;
+}
+
+
+#catalog2{
+  border-radius: 10px;
+  background-color: rgb(56, 45, 45);
+  height: 500px;
+  width: 80%;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  box-shadow: 0px 0px 30px rgb(255, 255, 255);
+}
+.name{
+  color: aquamarine;
+  background-color: inherit;
+  font-size: 40px;
+  letter-spacing: -3px;
+  font-style: italic;
+}
+.target{
+  margin-top: 40%;
+  background-color: inherit;
+}
+.try{
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+  padding: 0 10px 0px 10px;
+  background-color: #232323;
+  text-align: center;
+  font-size: 25px;
+  vertical-align: bottom;
+}
+#catalog2 .div:hover{
+  transition: all 1s;
+  transform: scale(1.1);
+}
+#catalog2 .div{
+  box-shadow: 0px 0px 15px rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 15px;
+  width: 225px;
+  height: 175px;
 }
