@@ -129,8 +129,7 @@ button:hover::before {
   height: 200px;
 }
 
-
-#catalog2{
+#catalog2 {
   border-radius: 10px;
   background-color: rgb(56, 45, 45);
   height: 500px;
@@ -140,18 +139,18 @@ button:hover::before {
   margin-right: 10%;
   box-shadow: 0px 0px 30px rgb(255, 255, 255);
 }
-.name{
+.name {
   color: aquamarine;
   background-color: inherit;
   font-size: 40px;
   letter-spacing: -3px;
   font-style: italic;
 }
-.target{
+.target {
   margin-top: 40%;
   background-color: inherit;
 }
-.try{
+.try {
   text-decoration: none;
   color: white;
   border-radius: 4px;
@@ -161,11 +160,11 @@ button:hover::before {
   font-size: 25px;
   vertical-align: bottom;
 }
-#catalog2 .div:hover{
+#catalog2 .div:hover {
   transition: all 1s;
   transform: scale(1.1);
 }
-#catalog2 .div{
+#catalog2 .div {
   box-shadow: 0px 0px 15px rgb(255, 255, 255);
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
