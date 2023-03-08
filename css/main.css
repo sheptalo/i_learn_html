@@ -176,7 +176,7 @@ button:hover::before {
   height: 150px;
 }
 
-.bg{
+.bg {
   position: relative;
   margin-left: 10%;
   width: 80%;
@@ -184,18 +184,18 @@ button:hover::before {
   background-color: #8e8e8e;
   border-radius: 10px;
 }
-#color{
+#color {
   width: 30%;
   border: 0;
   background-color: #222;
   height: 50px;
 }
-.painter{
+.painter {
   top: 20%;
-  left:20%;
+  left: 20%;
   position: absolute;
 }
-.painter #canvas{
+.painter #canvas {
   padding-top: 5px;
   display: flex;
   flex-wrap: wrap;
@@ -204,7 +204,7 @@ button:hover::before {
   height: 370px;
   background-color: #222;
 }
-.painter #canvas .point{
+.painter #canvas .point {
   margin-left: 5px;
   margin-bottom: 5px;
   background-color: white;
@@ -212,6 +212,6 @@ button:hover::before {
   height: 40px;
 }
 .painter input:hover,
-.point:hover{
-  cursor:pointer;
+.point:hover {
+  cursor: pointer;
 }
