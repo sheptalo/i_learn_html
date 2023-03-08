@@ -211,9 +211,7 @@ button:hover::before {
   width: 40px;
   height: 40px;
 }
-.painter input:hover{
-  cursor:pointer;
-}
+.painter input:hover,
 .point:hover{
   cursor:pointer;
 }
