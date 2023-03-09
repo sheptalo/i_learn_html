@@ -22,7 +22,7 @@ h1 {
   letter-spacing: 2px;
 }
 /*buttons default*/
-button {
+#welcome button {
   cursor: pointer;
   padding: 15px 25px;
   border: unset;
@@ -36,7 +36,7 @@ button {
   transition: all 500ms;
   overflow: hidden;
 }
-button::before {
+#welcome button::before {
   content: "";
   position: absolute;
   top: 0;
@@ -51,10 +51,10 @@ button::before {
   transition-timing-function: ease-out;
   transition: all 500ms;
 }
-button:hover {
+#welcome button:hover {
   color: white;
 }
-button:hover::before {
+#welcome button:hover::before {
   height: 100%;
 }
 
@@ -184,11 +184,23 @@ button:hover::before {
   background-color: #8e8e8e;
   border-radius: 10px;
 }
-#color {
-  width: 30%;
+#blue{
+  width: 50px;
+  height: 20px;
   border: 0;
-  background-color: #222;
-  height: 50px;
+  background-color: blue;
+}
+#green{
+  width: 50px;
+  height: 20px;
+  border: 0;
+  background-color: green;
+}
+#red {
+  width: 50px;
+  height: 20px;
+  border: 0;
+  background-color: red;
 }
 .painter {
   top: 20%;
@@ -196,17 +208,17 @@ button:hover::before {
   position: absolute;
 }
 .painter #canvas {
-  padding-top: 5px;
+  padding-top: 2px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  width: 365px;
-  height: 370px;
+  width: 338px;
+  height: 336px;
   background-color: #222;
 }
 .painter #canvas .point {
-  margin-left: 5px;
-  margin-bottom: 5px;
+  margin-left: 2px;
+  margin-bottom: 2px;
   background-color: white;
   width: 40px;
   height: 40px;
@@ -215,3 +227,17 @@ button:hover::before {
 .point:hover {
   cursor: pointer;
 }
+.painter input{
+  border: 1px solid #8e8e8e;
+  background-color: inherit;
+}
+#fill{
+  left: 300px;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border: 0;
+  border-radius: 25px;
+  background-color: #fff;
+}
+
