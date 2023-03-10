@@ -184,23 +184,16 @@ h1 {
   background-color: #8e8e8e;
   border-radius: 10px;
 }
-#blue{
-  width: 50px;
-  height: 20px;
-  border: 0;
-  background-color: blue;
+#colors{
+  width: 338px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
-#green{
+.color{
   width: 50px;
   height: 20px;
   border: 0;
-  background-color: green;
-}
-#red {
-  width: 50px;
-  height: 20px;
-  border: 0;
-  background-color: red;
 }
 .painter {
   top: 20%;
@@ -223,12 +216,11 @@ h1 {
   width: 40px;
   height: 40px;
 }
-.painter input:hover,
 .point:hover {
   cursor: pointer;
 }
 .painter input{
-  border: 1px solid #8e8e8e;
+  display: none;
   background-color: inherit;
 }
 #fill{
@@ -239,5 +231,14 @@ h1 {
   border: 0;
   border-radius: 25px;
   background-color: #fff;
+}
+#createColorText{
+  height: 10px;
+  display: inherit;
+}
+#createColor{
+  border: 0;
+  height: 30px;
+  width: 100px;
 }
 
