@@ -1,7 +1,7 @@
 let money = 0;
 let tg = window.Telegram.WebApp;
 let work = document.getElementById('work');
-let finish = document.getElementById('finish');
+tg.MainButton.show()
 
 tg.expand();
 work.addEventListener('click', function func() {
@@ -9,8 +9,8 @@ work.addEventListener('click', function func() {
   console.log(money);
 })
 
-finish.addEventListener('click', function func() {
-  // отправить данные в тг
-  tg.sendData(money);
-  money = 0;
-})
+tg.MainButton.text = "Закончить работу";
+
+Telegram.WebApp.onEvent('mainButtonClicked', function(){
+	tg.sendData(money); 
+});
