@@ -1,0 +1,12 @@
+* {
+  background: rgb(94, 94, 94);
+  margin: 0px;
+  padding: 0px;
+}
+div {
+  position: absolute;
+  left: 12.5%;
+  right: 12.5%;
+  align-items: center;
+  background-color: darkslategray;
+  }
