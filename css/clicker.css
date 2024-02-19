@@ -1,4 +1,5 @@
 * {
+  background: rgb(51, 51, 51);
   margin: 0px;
   padding: 0px;
 }
@@ -8,6 +9,7 @@
   right: 12.5%;
   align-items: center;
   text-align: center
+  background-color: inherit;
   }
 h1 {
 color: white;
