@@ -19,4 +19,7 @@ work.addEventListener('click', function func() {
 })
 
 
-tg.MainButton.onClick(tg.sendData('${tg.initDataUnsafe.user.id}:${money}'));
+Telegram.WebApp.onEvent('mainButtonClicked', function(){
+	tg.sendData('${tg.initDataUnsafe.user.id}:${money}')
+});
+
