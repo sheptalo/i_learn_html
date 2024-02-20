@@ -8,7 +8,7 @@ tg.MainButton.text = "Закончить работу";
 tg.MainButton.textColor = "#ffffff"; //изменяем цвет текста кнопки
 
 function updateMoneyText() {
-  document.getElementById("worked_for").innerHTML = 'Заработано: ' + money;
+  document.getElementById("worked_for").innerHTML = 'ЗАРАБОТАНО: ' + money;
 }
 
 updateMoneyText();
