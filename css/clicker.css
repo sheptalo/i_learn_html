@@ -5,9 +5,10 @@ body {
 }
 img{
   position: absolute;
-  height: 5%;
   left: 1%;
   opacity: 0.8;
+  max-width: 10%;
+  max-height: fit-content;
   border-radius: 50% 50% 50% 50%;
 
 }
