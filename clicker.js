@@ -15,7 +15,6 @@ updateMoneyText();
 
 work.addEventListener('click', function func() {
   money += 1;
-  console.log(money);
   updateMoneyText();
 })
 
