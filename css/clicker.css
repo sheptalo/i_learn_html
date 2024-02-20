@@ -1,5 +1,5 @@
 body {
-  background: var(--tg-theme-bg-color);
+  background: rgb(33,33,33);
   margin: 0px;
   padding: 0px;
 }
@@ -69,7 +69,7 @@ h2 {
   font-weight: 750;
   font-size: 25px;
   font-family: Arial, sans-serif;
-  color: var(--tg-theme-text-color);
+  color: white;
 }
 .upgrades button:hover{
   transform: scale(1.05);
