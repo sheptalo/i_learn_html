@@ -30,16 +30,16 @@ setInterval(() => {
   }
 }, 1000);
 upgrade.addEventListener('click', function(){
-  if (money >= get*50){
-    money -= get*50
+  if (money >= get*100){
+    money -= get*100
     get += 1
     upgrade.innerHTML = 'Улучшить ' + get*50
     updateMoneyText()
   }
 })
 buy_bot.addEventListener('click', function(){
-  if (money >= (lvl+1)*100){
-    money-=(lvl+1)*100;
+  if (money >= (lvl+1)*500){
+    money-=(lvl+1)*500;
     lvl+=1;
     bot_unlocked = true;
     buy_bot.innerHTML = 'улучшить-авто ' + (lvl+1)*100
