@@ -19,7 +19,4 @@ work.addEventListener('click', function func() {
 })
 
 
-
-Telegram.WebApp.onEvent('mainButtonClicked', function(){
-	tg.sendData(money); 
-});
+tg.MainButton.onClick(tg.sendData);
