@@ -40,14 +40,14 @@ upgrade.addEventListener('click', function(){
 buy_bot.addEventListener('click', function(){
   if (money >= (lvl+1)*100){
     money-=(lvl+1)*100;
-    lvl+=get;
+    lvl+=1;
     bot_unlocked = true;
     buy_bot.innerHTML = 'улучшить-авто ' + (lvl+1)*100
     updateMoneyText()
   }
 })
 work.addEventListener('click', function func() {
-  money += 1;
+  money += get;
   updateMoneyText();
   tg.MainButton.show()
 })
