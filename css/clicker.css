@@ -14,7 +14,7 @@ img{
 
 h2 {
   text-align: center;
-  color: var(--tg-theme-hint-color);
+  color: gray;
 }
 #main h1 {
   margin: 0;
