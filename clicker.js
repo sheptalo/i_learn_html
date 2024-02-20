@@ -1,7 +1,7 @@
 let money = 0;
 let tg = window.Telegram.WebApp;
 let work = document.getElementById('work');
-tg.MainButton.show()
+
 
 tg.expand(); //расширяем на все окно  
 tg.MainButton.text = "Закончить работу";
@@ -12,16 +12,17 @@ function updateMoneyText() {
 }
 
 updateMoneyText();
-
-work.addEventListener('click', function func() {
-  money += 1;
-  updateMoneyText();
-})
-
-
 Telegram.WebApp.onEvent('mainButtonClicked', function(){
   if (money>0){
 	tg.sendData(money)
   }
 });
+
+
+work.addEventListener('click', function func() {
+  money += 1;
+  updateMoneyText();
+  tg.MainButton.show()
+})
+
 
