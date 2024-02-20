@@ -15,13 +15,12 @@ img{
 #main h1 {
   text-align: right;
   font-family: Arial, sans-serif;
-  font-size: 100px;
+  font-size: 25px;
   color: white;
 }
 #main {
-  background: rgb(30,30,30);
+  background: rgb(15, 15, 15);
   border-radius: 0 0 50px 50px;
-  box-shadow: 10px 0 0 black;
 }
 #click {
   position: absolute;
@@ -62,7 +61,7 @@ img{
   text-align: center;
   bottom: 20%;
   font-weight: 750;
-  font-size: 50px;
+  font-size: 25px;
   font-family: Arial, sans-serif;
   color: var(--tg-theme-text-color);
 }
