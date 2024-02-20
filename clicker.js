@@ -10,7 +10,7 @@ tg.MainButton.textColor = "#ffffff"; //изменяем цвет текста к
 work.addEventListener('click', function func() {
   money += 1;
   console.log(money);
-  
+  document.getElementById("worked_for").innerHTML = 'Заработано: ' + money;
 })
 
 
