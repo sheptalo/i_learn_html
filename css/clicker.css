@@ -17,15 +17,16 @@ h2 {
   color: var(--tg-theme-hint-color);
 }
 #main h1 {
-  text-align: right;
+  margin: 0;
+  text-align: center;
   font-family: Arial, sans-serif;
-  font-size: 25px;
+  font-size: 50px;
   color: white;
 }
 #main {
   background: rgba(15, 15, 15, 0.781);
   border-radius: 0 0 50px 50px;
-  height: 200px;
+  height: 10vw;
 }
 #click {
   position: absolute;
