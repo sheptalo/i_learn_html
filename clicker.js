@@ -1,7 +1,6 @@
 let money = 0;
 let tg = window.Telegram.WebApp;
 let work = document.getElementById('work');
-let id = tg.initDataUnsafe.user.id
 tg.MainButton.show()
 
 tg.expand(); //расширяем на все окно  
@@ -22,7 +21,7 @@ work.addEventListener('click', function func() {
 
 Telegram.WebApp.onEvent('mainButtonClicked', function(){
   if (money>0){
-	tg.sendData('${tg.initDataUnsafe.user.id}:${money}:${id}')
+	tg.sendData('${tg.initDataUnsafe.user.id}:${money}')
   }
 });
 
