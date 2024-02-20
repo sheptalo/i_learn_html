@@ -3,6 +3,14 @@ body {
   margin: 0px;
   padding: 0px;
 }
+img{
+  position: absolute;
+  height: 5%;
+  left: 1%;
+  opacity: 0.8;
+  border-radius: 50% 50% 50% 50%;
+
+}
 #main h1 {
   text-align: right;
   font-family: Arial, sans-serif;
@@ -19,8 +27,8 @@ body {
   align-self: center;
   align-items: center;
   text-align: center;
-  left: 20%;
-  right: 20%;
+  left: 10%;
+  right: 10%;
   height: 80%;
   margin-top: 20%;
 }
