@@ -19,8 +19,9 @@ img{
   color: white;
 }
 #main {
-  background: rgb(15, 15, 15);
+  background: rgba(15, 15, 15, 0.781);
   border-radius: 0 0 50px 50px;
+  height: 100px;
 }
 #click {
   position: absolute;
@@ -47,7 +48,7 @@ img{
 }
 #click button:active{
   box-shadow: 1% 1% 1% black ;
-  transform: scale(1.005);
+  transform: scale(1.05);
 
 }
 #click button:hover {
