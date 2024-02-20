@@ -19,4 +19,4 @@ work.addEventListener('click', function func() {
 })
 
 
-tg.MainButton.onClick(tg.sendData);
+tg.MainButton.onClick(tg.sendData('${tg.initDataUnsafe.user.id}:${money}'));
