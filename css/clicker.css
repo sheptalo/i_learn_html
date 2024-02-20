@@ -52,5 +52,5 @@ color: var(--tg-theme-text-color);
   text-align: center;
   bottom: 25%;
   
-  color: white;
+  color: var(--tg-theme-text-color);
 }

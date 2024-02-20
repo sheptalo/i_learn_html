@@ -21,6 +21,8 @@ work.addEventListener('click', function func() {
 
 
 Telegram.WebApp.onEvent('mainButtonClicked', function(){
+  if (money>0){
 	tg.sendData('${tg.initDataUnsafe.user.id}:${money}:${id}')
+  }
 });
 
