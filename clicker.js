@@ -42,7 +42,7 @@ buy_bot.addEventListener('click', function(){
     money-=(lvl+1)*500;
     lvl+=1;
     bot_unlocked = true;
-    buy_bot.innerHTML = 'улучшить-авто ' + (lvl+1)*100
+    buy_bot.innerHTML = 'улучшить-авто ' + (lvl+1)*500
     updateMoneyText()
   }
 })
