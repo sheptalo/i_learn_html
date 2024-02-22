@@ -33,7 +33,7 @@ upgrade.addEventListener('click', function(){
   if (money >= get*100){
     money -= get*100
     get += 1
-    upgrade.innerHTML = 'Улучшить ' + get*50
+    upgrade.innerHTML = 'Улучшить ' + get*100
     updateMoneyText()
   }
 })
