@@ -29,6 +29,8 @@ h2 {
   height: 10vw;
 }
 #click {
+  -webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
   position: absolute;
   align-self: center;
   align-items: center;
@@ -83,6 +85,8 @@ h2 {
   color: white;
 }
 .upgrades {
+  -webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
   display: flex;
   flex-direction: row;
   position: absolute;
